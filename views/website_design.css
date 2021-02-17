@@ -31,6 +31,26 @@ h4{
 	text-align: left;
 }
 
+.container{
+	padding: 40px;
+}
+
+.display{
+	font-size: 160px;
+	text-align: center;
+	/*padding-top: 500px;
+	padding-bottom: 500px; */
+	font-family: Inter;
+
+	border: 8px solid #000000;
+	border-radius: 50%;
+	width: 800px;
+	height: 800px;
+	line-height: 800px;
+	z-index: 1000;
+
+}
+
 /* BUTTONS */
 .big-button{
 	text-align: center;
@@ -45,6 +65,51 @@ h4{
 	font-size: 36px;
 
 }
+
+#pause{
+	text-align: center;
+	border: 1px solid;
+	padding: 16px 32px;
+	width: 320px;
+	height: 100px;
+	font-size: 36px;
+
+}
+
+#end{
+	text-align: center;
+	border: 1px solid;
+	padding: 16px 32px;
+	width: 320px;
+	height: 100px;
+	font-size: 36px;
+	margin-left: 80px;
+
+}
+
+.buttons{
+	margin-top: 200px;
+	text-align: center;
+}
+
+.sesh_type{
+	text-align: center;
+}
+
+
+.sesh_type button{
+	border: 1px;
+	outline: none;
+	cursor: pointer;
+	padding: 16px 32px;
+	transition: 0.3s;
+	width: 400px;
+	height: 120px;
+	font-size: 36px;
+	font-weight: medium;
+	margin-bottom: 200px;
+}
+
 
 body{
 	padding: 40px;
